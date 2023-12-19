@@ -5,7 +5,7 @@ init_args:
   # strategy: ddp # Uncomment this line for distributed training
   devices: 1
   strategy: auto
-  #precision: 16
+  precision: 16
   accumulate_grad_batches: 8
   benchmark: null
   check_val_every_n_epoch: 1
